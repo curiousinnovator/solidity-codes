@@ -1,36 +1,27 @@
 //SPDX-License-Identifier:MIT
 pragma solidity 0.8.18;
-                           
-contract UseArrayMapping{
-    uint number;
-    string[] names; // this is state varaible
-    mapping(string => uint) public phoneNumbers;
+ contract SimpleStorage{
+    uint  public number1;
+    uint public number2; // state varaibles
 
-    function addMobileNumber(string memory _name, uint _mobileNUmber) public{
-        phoneNumbers[_name] = _mobileNUmber;
+    constructor(){
+        number1 = 0;
+        number2 = 0;
     }
+     
+     function setNumbers( uint _number, uint _Number) public {
+        number1 = _number;
+        number2 = _Number;
+     }
 
-    function getMobileNumber(string memory _name) public view returns (uint) {
-       return  phoneNumbers[_name];
-       }
+   function numberIncrease() public view returns (uint){
+    return number1 + number2;
+   }
 
-       
-}
+   function numberDecrease( ) public view returns( uint){
+     return number1 - number2;
+   }
+ }
 
 
-//How to comment in solidity  
-// 
-// NATSPEC
-/* NATSPEC */
-
-/// NATSPEC
-/** NATSPEC */
-
-// In solidity, we have two types of data type
-// Values and reference
-/* boolean
-uint
-int
-string
-address 0000000000000000000000000000*/
 
