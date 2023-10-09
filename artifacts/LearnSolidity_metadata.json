@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "emmanuel",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getsting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learnSolidity.sol": "LearnSolidity"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learnSolidity.sol": {
+			"keccak256": "0x0ee2d6e50de86a0a8960e2014090c72ffd4a84fa8d64f0ebeedce0fc1abe0a79",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a03e7c1e1d7874c0f328fc3ac51f5a0589df70df00a6057785bfd9176bc7799",
+				"dweb:/ipfs/QmZHzqZPkZY4PuTr748xt5YnYd3xcF7dv4Z4to62A9ebqj"
+			]
+		}
+	},
+	"version": 1
+}
